@@ -3,16 +3,10 @@ package hello;
 import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-import javax.persistence.ParameterMode;
 import oracle.jdbc.OracleTypes;
 import org.hibernate.Session;
-import org.hibernate.jdbc.ReturningWork;
-import org.hibernate.procedure.ProcedureCall;
-import org.hibernate.procedure.ProcedureOutputs;
-import org.hibernate.result.ResultSetOutput;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
 
