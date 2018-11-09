@@ -1,4 +1,4 @@
-package hello;
+package com.ws_safe.app;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
